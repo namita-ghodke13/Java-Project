@@ -1,0 +1,74 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+body {
+   width: 100%;
+   height: 100vh;
+   display: grid;
+   place-items: center;
+   background: #f3f2f2;
+}
+
+.form-container {
+   background: rgb(253,236,198);
+   padding: 20px;
+   border-radius: 5px;
+   border: 5px solid #fff;
+}
+.form-container .img{
+   align-content: center;
+   margin: auto ;
+   background: none;
+}
+
+form {
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+}
+
+form input,.date select {
+   padding: 10px;
+   margin-bottom: 12px;
+   border: 0;
+   outline: none;
+   border-radius: 3px;
+   border: 1px solid rgb(245,194,84);
+}
+
+form h2 {
+   text-align: center;
+   font-size: 22px;
+   margin-bottom: 30px;
+}
+
+form button {
+   padding: 10px;
+   background: rgb(219,152,6);
+   border: 0;
+   outline: none;
+   margin-top: 30px;
+   font-size: 16px;
+   font-weight: 550;
+   color: #fff;
+   border-radius: 4px;
+}
+
+.date {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 5px;
+}
+.date input {
+   width: 50%;
+}
+
+.date select {
+   width: 50%;
+
+}
